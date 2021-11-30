@@ -14,19 +14,19 @@
 
 如果需要做特殊处理，可以自定义处理器
 
-​    文件处理类：[TemplateResolver.java](src\main\java\cc\wanforme\mbgenerator\template\resolver\TemplateResolver.java)
+​    文件处理类：[TemplateResolver.java](src/main/java/cc/wanforme/mbgenerator/template/resolver/TemplateResolver.java)
 
-​    文件到处类：[ExportResolver.java](src\main\java\cc\wanforme\mbgenerator\template\resolver\ExportResolver.java)
+​    文件到处类：[ExportResolver.java](src/main/java/cc/wanforme/mbgenerator/template/resolver/ExportResolver.java)
 
-项目是基于 `SpringBoot` 的非 `web` 项目，所以程序入口在 [MBGenerator.java](src\main\java\cc\wanforme\mbgenerator\MBGenerator.java)
+项目是基于 `SpringBoot` 的非 `web` 项目，所以程序入口在 [MBGenerator.java](src/main/java/cc/wanforme/mbgenerator/MBGenerator.java)
 
 
 
 #### 配置文件
 
-**基础配置**:  [application-template.yml](src\main\resources\config\application-template.yml)
+**基础配置**:  [application-template.yml](src/main/resources/config/application-template.yml)
 
-**文本替换规则**： [rules.yml](src\main\resources\rules.yml)
+**文本替换规则**： [rules.yml](src/main/resources/rules.yml)
 
-**文件导出规则**： [pathRules.yml](src\main\resources\pathRules.yml)
+**文件导出规则**： [pathRules.yml](src/main/resources/pathRules.yml)
 

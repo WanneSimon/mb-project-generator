@@ -1,0 +1,22 @@
+server:
+  shutdown: graceful # 优雅关机(勿强制杀死进程)
+
+spring:
+  main:
+    web-application-type: none  # REACTIVE, SERVLET
+    web-environment: false
+  profiles:
+    active: template
+  aop:
+    proxy-target-class: true
+    auto: true
+
+# 日志文件位置
+logging:
+  config: classpath:log4j2-spring.xml # 这个是默认的，可以不写，换了名字就要写
+  level:
+    ROOT: info 
+    cn.jay.repository: trace
+    cc.wanforme.coorush: debug
+
+

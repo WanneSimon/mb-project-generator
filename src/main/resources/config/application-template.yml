@@ -1,0 +1,15 @@
+# 工程根路径
+projectPath: 'C:\bak\workspace2\MunkBlog-core'
+# 输出路径
+outPath: 'C:\bak\workspace2\mb-core'
+# 需要忽略的文件, 支持正则表达式
+# 相对路径, 两个参数可以同时出现, 实现方式是文件路径和字符串比较
+ignore: 
+  # 直接指定文件名
+  list: MyBatisPlusConfig.java, .gitignore, schema/schema_mysql-history1.sql
+  # 指定正则表达式, 正则表达式要注意不同平台的路径分隔符
+  reg: .mvn/*,file/*
+# 替换规则
+ruleFile: rules.yml
+# 文件路径规则
+pathFile: pathRules.yml

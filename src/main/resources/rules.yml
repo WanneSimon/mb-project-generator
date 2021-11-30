@@ -1,0 +1,6 @@
+# 文本每行替换规则
+rules:
+  - 
+    matcher: .*cc\.wanforme.*
+    replace: cc\.wanforme
+    value: github.simon

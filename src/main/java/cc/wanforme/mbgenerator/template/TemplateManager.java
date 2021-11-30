@@ -13,7 +13,7 @@ import cc.wanforme.mbgenerator.template.resolver.ExportResolver;
 import cc.wanforme.mbgenerator.template.resolver.TemplateResolver;
 import cc.wanforme.mbgenerator.util.PathResource;
 
-/**
+/** 处理中心
  * @since 2021-11-29
  */
 @Service
@@ -32,7 +32,7 @@ public class TemplateManager {
 		this.exportResolver = exportResolver;
 	}
 	
-	/**
+	/** 处理单个文件
 	 * @param absolutFile 文件的绝对路径
 	 * @param relativeFile 文件在项目中的相对卢路径
 	 */

@@ -4,6 +4,9 @@ import java.io.InputStream;
 
 import cc.wanforme.mbgenerator.config.TemplateConfig;
 
+/** 文件处理的基础实现
+ * @since 2021-11-29
+ */
 public abstract class BaseTemplateResolver implements TemplateResolver {
 	protected TemplateConfig config;
 	

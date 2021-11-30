@@ -16,7 +16,7 @@ import cc.wanforme.mbgenerator.template.TemplateManager;
 import cc.wanforme.mbgenerator.template.resolver.export.SimpleExportResolver;
 import cc.wanforme.mbgenerator.template.resolver.type.SimpleLineResolver;
 
-/**
+/** 程序入口
  * @since 2021-11-29
  */
 @Component
@@ -39,8 +39,7 @@ public class MBGenerator implements CommandLineRunner{
 		
 		this.convert(new File(ttc.getProjectPath()), ttc);
 		
-		System.out.println("=== end ====");
-		
+		log.info("\n====== finished =======");
 	}
 	
 	public void convert(File dir, TemplateConfig ttc) {

@@ -3,6 +3,7 @@ package cc.wanforme.mbgenerator.template.resolver;
 import java.io.InputStream;
 
 /**
+ * 文件处理器
  * @since 2021-11-29
  */
 public interface TemplateResolver {

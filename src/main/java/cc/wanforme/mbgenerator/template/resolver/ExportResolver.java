@@ -3,6 +3,10 @@ package cc.wanforme.mbgenerator.template.resolver;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * 导出处理器
+ * @since 2021-11-30
+ */
 public interface ExportResolver {
 
 	/**  

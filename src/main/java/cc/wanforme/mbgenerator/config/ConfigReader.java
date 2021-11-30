@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 
 import org.yaml.snakeyaml.Yaml;
 
+@Deprecated
 public class ConfigReader {
 
 	public static TemplateConfig readTemplateConfig(String configPath)

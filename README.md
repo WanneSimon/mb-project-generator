@@ -30,3 +30,8 @@
 
 **文件导出规则**： [pathRules.yml](src/main/resources/pathRules.yml)
 
+
+
+#### 使用方法
+
+修改3个配置文件，启动主程序

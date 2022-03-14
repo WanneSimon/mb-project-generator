@@ -1,7 +1,9 @@
 # 工程根路径
-projectPath: 'C:\bak\workspace2\MunkBlog-core'
+projectPath: 'E:\temp\dy-manage\coco-rush-server'
+#projectPath: 'E:\temp\dy-manage\coco-rush-server\src\main\resources\mapper\base'
 # 输出路径
-outPath: 'C:\bak\workspace2\mb-core'
+outPath: 'E:\temp\dy-manage\munk-blog-2'
+#outPath: 'E:\temp\dy-manage\coco-rush-server\src\main\resources\mapper\base\out'
 # 需要忽略的文件, 支持正则表达式
 # 相对路径, 两个参数可以同时出现, 实现方式是文件路径和字符串比较
 ignore: 

@@ -80,13 +80,17 @@ public class SimpleLineResolver extends BaseTemplateResolver {
 
 			while (in.hasNext()) {
 				String line = in.nextLine();
+				boolean isHandled = false;
 				for (RegAndStr ras : this.lineRules.getRules()) {
+					// 只能由其中某一个处理
 					if (Pattern.matches(ras.getMatcher(), line)) {
 						sb.append(line.replaceAll(ras.getReplace(), ras.getValue()));
-					} else {
-						sb.append(line);
-					}
-					sb.append(System.lineSeparator());
+						sb.append(System.lineSeparator());
+						isHandled = true;
+					} 
+				}
+				if(!isHandled) {
+					sb.append(line + System.lineSeparator());
 				}
 			}
 			return new ByteArrayInputStream(sb.toString().getBytes(StandardCharsets.UTF_8));

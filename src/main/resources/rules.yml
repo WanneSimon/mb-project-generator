@@ -1,6 +1,12 @@
 # 文本每行替换规则
 rules:
+  # 包名
   - 
-    matcher: .*cc\.wanforme.*
-    replace: cc\.wanforme
-    value: github.simon
+    matcher: .*cc\.wanforme\.st.*
+    replace: cc\.wanforme\.st
+    value: cc.wanforme.munkblog
+  # 项目名
+  - 
+    matcher: .*coco\-server.*
+    replace: coco\-server
+    value: munkblog-server

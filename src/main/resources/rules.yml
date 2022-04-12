@@ -4,9 +4,9 @@ rules:
   - 
     matcher: .*cc\.wanforme\.st.*
     replace: cc\.wanforme\.st
-    value: cc.wanforme.munkblog
+    value: cc.wanforme.simbox
   # 项目名
   - 
     matcher: .*coco\-server.*
     replace: coco\-server
-    value: munkblog-server
+    value: sim-box-server

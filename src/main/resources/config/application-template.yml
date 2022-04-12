@@ -1,16 +1,15 @@
+# 项目: https://gitee.com/wanneme/CocoRush.git
 # 工程根路径
-projectPath: 'E:\temp\dy-manage\coco-rush-server'
-#projectPath: 'E:\temp\dy-manage\coco-rush-server\src\main\resources\mapper\base'
+projectPath: 'E:\temp\dy-manage'
 # 输出路径
-outPath: 'E:\temp\dy-manage\munk-blog-2'
-#outPath: 'E:\temp\dy-manage\coco-rush-server\src\main\resources\mapper\base\out'
+outPath: 'E:\temp\sim-box'
 # 需要忽略的文件, 支持正则表达式
 # 相对路径, 两个参数可以同时出现, 实现方式是文件路径和字符串比较
 ignore: 
   # 直接指定文件名
   list: MyBatisPlusConfig.java, .gitignore, schema/schema_mysql-history1.sql
   # 指定正则表达式, 正则表达式要注意不同平台的路径分隔符
-  reg: .mvn/*,file/*
+  reg: \.mvn\\.*,file\\.*,.*\\\.settings\\.*,.*\\logs\\.*,.*\\target\\.*,.*\\node_modules\\.*,.*\\\.classpath,.*\\\.project
 # 替换规则
 ruleFile: rules.yml
 # 文件路径规则

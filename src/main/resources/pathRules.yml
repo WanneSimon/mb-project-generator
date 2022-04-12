@@ -6,4 +6,4 @@ pathRules:
     # 文件路径只会替换第一个匹配的字串,
     # java会自动识别文件分隔符, 替换值里面不需要注意文件分割符
     # 注意：分隔符是 \\ 和 /
-    value: cc/wanforme/munkblog
+    value: cc/wanforme/simbox
